@@ -1,0 +1,147 @@
+/* Global Reset or Normalize */
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+ 
+body {
+   font-family: 'Hanken Grotesk', sans-serif;
+   font-size: 15px;
+}
+ 
+/* Additional global styles can be added here */
+
+#background{
+   width: 100%;
+   height: 100vh;
+   background: #121417;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#container{
+   width: 350px;
+   height: auto;
+   background: #252d37;
+   border-radius: 20px;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+}
+
+.circle{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: #3a4452;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.5s;
+}
+
+#container h1{
+   color: #fff;
+   margin-top: 25px;
+   font-size: 25px;
+   font-weight: 700;
+}
+
+p{
+   margin-top: 10px;
+   color: #7c8798;
+}
+
+#rating{
+   width: 100%;
+   height: auto;
+   margin-top: 25px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.rate{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.rate .circle:hover{
+   background: #7c8798;
+   cursor: pointer;
+}
+
+.rate .circle:hover p{
+   color: #fff;
+}
+
+.rate p{
+   margin: 0;
+}
+
+button{
+   margin-top: 25px;
+   width: 100%;
+   height:fit-content;
+   font-family:'Roboto', sans-serif;
+   background: hsl(25, 97%, 53%);
+   color: #fff;
+   border: none;
+   border-radius: 20px;
+   padding: 10px 0;
+   transition: all 0.5s;
+}
+
+button:hover{
+   color: hsl(25, 97%, 53%);
+   background-color: #fff;
+   cursor: pointer;
+}
+
+.attribution { 
+   font-size: 11px; 
+   text-align: center; 
+   color: #fff;
+   position: absolute;
+   bottom: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+#thank-you-img{
+   width: 150px;
+   height: auto;
+   align-self: center;
+   margin-top: 15px;
+}
+
+#rating-out-of{
+   background: #3a4452 ;
+   margin-top: 30px;
+   align-self: center;
+   padding: 5px 15px;
+   border-radius: 20px;
+}
+
+#rating-out-of p{
+   margin: 0;
+   font-size: 0.8rem;
+   color: hsl(25, 97%, 53%);
+   font-weight: lighter;
+}
+
+#thank-you-h1{
+   align-self: center;
+}
+
+#thank-you-text{
+   text-align: center;
+}
